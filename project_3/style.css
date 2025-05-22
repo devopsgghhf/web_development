@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: cadetblue;
+    max-width: 400px;
+    border: 2px solid red;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+.clock{
+    width: 200px;
+    background-color: rgb(91, 91, 220);
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
